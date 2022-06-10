@@ -29,7 +29,7 @@
       </div>
       <div id="form-container">
         <h2>Let's do this!</h2>
-        <form>
+        <form id="form" action="http://127.0.0.1:5500/index.html?#" metnod="post">
           <label for="fname">First Name <br> <input type="text" id="fname"> </label>
           <label for="lname">Last Name <br> <input type="text" id="lname"></label>
           <label for="email"> Email <br> <input type="email" id="email"></label>
@@ -39,7 +39,7 @@
         </form>
       </div>
       <div id="bottom">
-        <button id="create-account-button">Create Account</button>
+        <input type="submit" form="form" id="create-account-button" value="Create Account">
         <p>Already have an account? <a href="#">Log In</a></p>
       </div>
     </main>
